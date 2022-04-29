@@ -54,6 +54,7 @@ The *getmessages* Function has a 10-minute in-memory cache enabled by default, i
     "priority":"1"
 }
 
+
 ```
 As described, `From`,`To` and `Priority` are optional. Moreover, if you omit `Priority`, it will be automatically setup to a default of 100 (pretty low). If you omit `From` and `To`, your message will always be sent to the clients, unless you manually set the `IsActive` property to 'false'. All dates/times are in UTC. Regarding the details regarding date/time format for the `From` and `To` variables:
 
